@@ -1,12 +1,11 @@
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
 
-music_data = pd.read_csv("flavour_data.csv")
+flavour_data = pd.read_csv("ice_cream_internship/flavour_data.csv")
 
-X = music_data.drop(columns=["Flavour"])
-y = music_data["Flavour"] 
+X = flavour_data.drop(columns=["Flavour"])
+y = flavour_data["Flavour"] 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 model = DecisionTreeClassifier()
@@ -27,5 +26,3 @@ def predict_flavour(gender, age_group):
 
     prediction = model.predict(input_data)
     return prediction[0]
-
-print(predict_flavour(1, "18-29"))
