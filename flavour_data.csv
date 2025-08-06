@@ -1,25 +1,789 @@
-Flavour,Male,Female,18-29,30-44,45-64,65+,White,Black,Hispanic,Other
-Vanilla,11,11,17,5,13,11,10,9,17,13
-Chocolate,12,9,9,10,12,10,11,7,6,14
-Strawberry,5,7,9,6,5,5,5,15,8,3
-Butter Pecan,7,9,3,4,11,15,4,19,4,5
-Mint Chocolate Chip,7,10,7,8,11,7,10,4,10,5
-Cookies and Cream,7,7,8,14,4,1,5,12,10,11
-Chocolate Chip,3,1,1,2,2,2,2,0,3,0
-Chocolate Chip Cookie Dough,6,5,10,5,5,3,7,1,5,5
-Rocky Road,5,4,3,3,4,7,5,2,6,1
-Coffee,4,5,2,7,4,5,6,1,2,0
-Pistachio,4,4,3,5,4,3,4,2,4,8
-Neapolitan,2,1,1,1,2,3,1,4,1,3
-Cherry,2,1,2,1,1,3,2,1,1,2
-Cake Batter,1,1,2,2,0,0,1,2,1,3
-Birthday Cake,2,2,1,5,1,0,2,1,4,2
-Butterscotch,1,0,0,2,0,1,1,0,1,0
-Caramel,2,4,2,1,3,4,3,3,2,3
-Chocolate peanut butter,5,5,2,5,6,,7,1,3,1
-Peanut butter,2,2,2,4,2,1,2,2,2,3
-Peach,1,2,1,1,1,1,1,1,1,0
-Raspberry,1,2,2,1,2,2,1,2,1,1
-$other_icecream,5,4,2,2,4,6,2,4,1,6
-I don't eat ice cream,3,3,6,2,2,3,2,1,5,9
-I'm not sure which ice cream like,2,1,5,4,1,1,2,6,2,2
+Flavour,Gender,Age Group
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,0
+Vanilla,1,1
+Vanilla,1,1
+Vanilla,1,1
+Vanilla,1,1
+Vanilla,1,1
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,2
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,1,3
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,0
+Vanilla,0,1
+Vanilla,0,1
+Vanilla,0,1
+Vanilla,0,1
+Vanilla,0,1
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,2
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Vanilla,0,3
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,0
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,1
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,2
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,1,3
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,0
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,1
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,2
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Chocolate,0,3
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,0
+Strawberry,1,1
+Strawberry,1,1
+Strawberry,1,1
+Strawberry,1,1
+Strawberry,1,1
+Strawberry,1,1
+Strawberry,1,2
+Strawberry,1,2
+Strawberry,1,2
+Strawberry,1,2
+Strawberry,1,2
+Strawberry,1,3
+Strawberry,1,3
+Strawberry,1,3
+Strawberry,1,3
+Strawberry,1,3
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,0
+Strawberry,0,1
+Strawberry,0,1
+Strawberry,0,1
+Strawberry,0,1
+Strawberry,0,1
+Strawberry,0,1
+Strawberry,0,2
+Strawberry,0,2
+Strawberry,0,2
+Strawberry,0,2
+Strawberry,0,2
+Strawberry,0,3
+Strawberry,0,3
+Strawberry,0,3
+Strawberry,0,3
+Strawberry,0,3
+Butter Pecan,1,0
+Butter Pecan,1,0
+Butter Pecan,1,0
+Butter Pecan,1,1
+Butter Pecan,1,1
+Butter Pecan,1,1
+Butter Pecan,1,1
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,2
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,1,3
+Butter Pecan,0,0
+Butter Pecan,0,0
+Butter Pecan,0,0
+Butter Pecan,0,1
+Butter Pecan,0,1
+Butter Pecan,0,1
+Butter Pecan,0,1
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,2
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Butter Pecan,0,3
+Mint Chocolate Chip,1,0
+Mint Chocolate Chip,1,0
+Mint Chocolate Chip,1,0
+Mint Chocolate Chip,1,0
+Mint Chocolate Chip,1,0
+Mint Chocolate Chip,1,0
+Mint Chocolate Chip,1,0
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,1
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,2
+Mint Chocolate Chip,1,3
+Mint Chocolate Chip,1,3
+Mint Chocolate Chip,1,3
+Mint Chocolate Chip,1,3
+Mint Chocolate Chip,1,3
+Mint Chocolate Chip,1,3
+Mint Chocolate Chip,1,3
+Mint Chocolate Chip,0,0
+Mint Chocolate Chip,0,0
+Mint Chocolate Chip,0,0
+Mint Chocolate Chip,0,0
+Mint Chocolate Chip,0,0
+Mint Chocolate Chip,0,0
+Mint Chocolate Chip,0,0
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,1
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,2
+Mint Chocolate Chip,0,3
+Mint Chocolate Chip,0,3
+Mint Chocolate Chip,0,3
+Mint Chocolate Chip,0,3
+Mint Chocolate Chip,0,3
+Mint Chocolate Chip,0,3
+Mint Chocolate Chip,0,3
+Cookies and Cream,1,0
+Cookies and Cream,1,0
+Cookies and Cream,1,0
+Cookies and Cream,1,0
+Cookies and Cream,1,0
+Cookies and Cream,1,0
+Cookies and Cream,1,0
+Cookies and Cream,1,0
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,1
+Cookies and Cream,1,2
+Cookies and Cream,1,2
+Cookies and Cream,1,2
+Cookies and Cream,1,2
+Cookies and Cream,1,3
+Cookies and Cream,0,0
+Cookies and Cream,0,0
+Cookies and Cream,0,0
+Cookies and Cream,0,0
+Cookies and Cream,0,0
+Cookies and Cream,0,0
+Cookies and Cream,0,0
+Cookies and Cream,0,0
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,1
+Cookies and Cream,0,2
+Cookies and Cream,0,2
+Cookies and Cream,0,2
+Cookies and Cream,0,2
+Cookies and Cream,0,3
+Chocolate Chip,1,0
+Chocolate Chip,1,1
+Chocolate Chip,1,1
+Chocolate Chip,1,2
+Chocolate Chip,1,2
+Chocolate Chip,1,3
+Chocolate Chip,1,3
+Chocolate Chip,0,0
+Chocolate Chip,0,1
+Chocolate Chip,0,1
+Chocolate Chip,0,2
+Chocolate Chip,0,2
+Chocolate Chip,0,3
+Chocolate Chip,0,3
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,0
+Chocolate Chip Cookie Dough,1,1
+Chocolate Chip Cookie Dough,1,1
+Chocolate Chip Cookie Dough,1,1
+Chocolate Chip Cookie Dough,1,1
+Chocolate Chip Cookie Dough,1,1
+Chocolate Chip Cookie Dough,1,2
+Chocolate Chip Cookie Dough,1,2
+Chocolate Chip Cookie Dough,1,2
+Chocolate Chip Cookie Dough,1,2
+Chocolate Chip Cookie Dough,1,2
+Chocolate Chip Cookie Dough,1,3
+Chocolate Chip Cookie Dough,1,3
+Chocolate Chip Cookie Dough,1,3
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,0
+Chocolate Chip Cookie Dough,0,1
+Chocolate Chip Cookie Dough,0,1
+Chocolate Chip Cookie Dough,0,1
+Chocolate Chip Cookie Dough,0,1
+Chocolate Chip Cookie Dough,0,1
+Chocolate Chip Cookie Dough,0,2
+Chocolate Chip Cookie Dough,0,2
+Chocolate Chip Cookie Dough,0,2
+Chocolate Chip Cookie Dough,0,2
+Chocolate Chip Cookie Dough,0,2
+Chocolate Chip Cookie Dough,0,3
+Chocolate Chip Cookie Dough,0,3
+Chocolate Chip Cookie Dough,0,3
+Rocky Road,1,0
+Rocky Road,1,0
+Rocky Road,1,0
+Rocky Road,1,1
+Rocky Road,1,1
+Rocky Road,1,1
+Rocky Road,1,2
+Rocky Road,1,2
+Rocky Road,1,2
+Rocky Road,1,2
+Rocky Road,1,3
+Rocky Road,1,3
+Rocky Road,1,3
+Rocky Road,1,3
+Rocky Road,1,3
+Rocky Road,1,3
+Rocky Road,1,3
+Rocky Road,0,0
+Rocky Road,0,0
+Rocky Road,0,0
+Rocky Road,0,1
+Rocky Road,0,1
+Rocky Road,0,1
+Rocky Road,0,2
+Rocky Road,0,2
+Rocky Road,0,2
+Rocky Road,0,2
+Rocky Road,0,3
+Rocky Road,0,3
+Rocky Road,0,3
+Rocky Road,0,3
+Rocky Road,0,3
+Rocky Road,0,3
+Rocky Road,0,3
+Coffee,1,0
+Coffee,1,0
+Coffee,1,1
+Coffee,1,1
+Coffee,1,1
+Coffee,1,1
+Coffee,1,1
+Coffee,1,1
+Coffee,1,1
+Coffee,1,2
+Coffee,1,2
+Coffee,1,2
+Coffee,1,2
+Coffee,1,3
+Coffee,1,3
+Coffee,1,3
+Coffee,1,3
+Coffee,1,3
+Coffee,0,0
+Coffee,0,0
+Coffee,0,1
+Coffee,0,1
+Coffee,0,1
+Coffee,0,1
+Coffee,0,1
+Coffee,0,1
+Coffee,0,1
+Coffee,0,2
+Coffee,0,2
+Coffee,0,2
+Coffee,0,2
+Coffee,0,3
+Coffee,0,3
+Coffee,0,3
+Coffee,0,3
+Coffee,0,3
+Pistachio,1,0
+Pistachio,1,0
+Pistachio,1,0
+Pistachio,1,1
+Pistachio,1,1
+Pistachio,1,1
+Pistachio,1,1
+Pistachio,1,1
+Pistachio,1,2
+Pistachio,1,2
+Pistachio,1,2
+Pistachio,1,2
+Pistachio,1,3
+Pistachio,1,3
+Pistachio,1,3
+Pistachio,0,0
+Pistachio,0,0
+Pistachio,0,0
+Pistachio,0,1
+Pistachio,0,1
+Pistachio,0,1
+Pistachio,0,1
+Pistachio,0,1
+Pistachio,0,2
+Pistachio,0,2
+Pistachio,0,2
+Pistachio,0,2
+Pistachio,0,3
+Pistachio,0,3
+Pistachio,0,3
+Neapolitan,1,0
+Neapolitan,1,1
+Neapolitan,1,2
+Neapolitan,1,2
+Neapolitan,1,3
+Neapolitan,1,3
+Neapolitan,1,3
+Neapolitan,0,0
+Neapolitan,0,1
+Neapolitan,0,2
+Neapolitan,0,2
+Neapolitan,0,3
+Neapolitan,0,3
+Neapolitan,0,3
+Cherry,1,0
+Cherry,1,0
+Cherry,1,1
+Cherry,1,2
+Cherry,1,3
+Cherry,1,3
+Cherry,1,3
+Cherry,0,0
+Cherry,0,0
+Cherry,0,1
+Cherry,0,2
+Cherry,0,3
+Cherry,0,3
+Cherry,0,3
+Cake Batter,1,0
+Cake Batter,1,0
+Cake Batter,1,1
+Cake Batter,1,1
+Cake Batter,0,0
+Cake Batter,0,0
+Cake Batter,0,1
+Cake Batter,0,1
+Birthday Cake,1,0
+Birthday Cake,1,1
+Birthday Cake,1,1
+Birthday Cake,1,1
+Birthday Cake,1,1
+Birthday Cake,1,1
+Birthday Cake,1,2
+Birthday Cake,0,0
+Birthday Cake,0,1
+Birthday Cake,0,1
+Birthday Cake,0,1
+Birthday Cake,0,1
+Birthday Cake,0,1
+Birthday Cake,0,2
+Butterscotch,1,1
+Butterscotch,1,1
+Butterscotch,1,3
+Butterscotch,0,1
+Butterscotch,0,1
+Butterscotch,0,3
+Caramel,1,0
+Caramel,1,0
+Caramel,1,1
+Caramel,1,2
+Caramel,1,2
+Caramel,1,2
+Caramel,1,3
+Caramel,1,3
+Caramel,1,3
+Caramel,1,3
+Caramel,0,0
+Caramel,0,0
+Caramel,0,1
+Caramel,0,2
+Caramel,0,2
+Caramel,0,2
+Caramel,0,3
+Caramel,0,3
+Caramel,0,3
+Caramel,0,3
+Chocolate peanut butter,1,0
+Chocolate peanut butter,1,0
+Chocolate peanut butter,1,1
+Chocolate peanut butter,1,1
+Chocolate peanut butter,1,1
+Chocolate peanut butter,1,1
+Chocolate peanut butter,1,1
+Chocolate peanut butter,1,2
+Chocolate peanut butter,1,2
+Chocolate peanut butter,1,2
+Chocolate peanut butter,1,2
+Chocolate peanut butter,1,2
+Chocolate peanut butter,1,2
+Chocolate peanut butter,0,0
+Chocolate peanut butter,0,0
+Chocolate peanut butter,0,1
+Chocolate peanut butter,0,1
+Chocolate peanut butter,0,1
+Chocolate peanut butter,0,1
+Chocolate peanut butter,0,1
+Chocolate peanut butter,0,2
+Chocolate peanut butter,0,2
+Chocolate peanut butter,0,2
+Chocolate peanut butter,0,2
+Chocolate peanut butter,0,2
+Chocolate peanut butter,0,2
+Peanut butter,1,0
+Peanut butter,1,0
+Peanut butter,1,1
+Peanut butter,1,1
+Peanut butter,1,1
+Peanut butter,1,1
+Peanut butter,1,2
+Peanut butter,1,2
+Peanut butter,1,3
+Peanut butter,0,0
+Peanut butter,0,0
+Peanut butter,0,1
+Peanut butter,0,1
+Peanut butter,0,1
+Peanut butter,0,1
+Peanut butter,0,2
+Peanut butter,0,2
+Peanut butter,0,3
+Peach,1,0
+Peach,1,1
+Peach,1,2
+Peach,1,3
+Peach,0,0
+Peach,0,1
+Peach,0,2
+Peach,0,3
+Raspberry,1,0
+Raspberry,1,0
+Raspberry,1,1
+Raspberry,1,2
+Raspberry,1,2
+Raspberry,1,3
+Raspberry,1,3
+Raspberry,0,0
+Raspberry,0,0
+Raspberry,0,1
+Raspberry,0,2
+Raspberry,0,2
+Raspberry,0,3
+Raspberry,0,3
+$other_icecream,1,0
+$other_icecream,1,0
+$other_icecream,1,1
+$other_icecream,1,1
+$other_icecream,1,2
+$other_icecream,1,2
+$other_icecream,1,2
+$other_icecream,1,2
+$other_icecream,1,3
+$other_icecream,1,3
+$other_icecream,1,3
+$other_icecream,1,3
+$other_icecream,1,3
+$other_icecream,1,3
+$other_icecream,0,0
+$other_icecream,0,0
+$other_icecream,0,1
+$other_icecream,0,1
+$other_icecream,0,2
+$other_icecream,0,2
+$other_icecream,0,2
+$other_icecream,0,2
+$other_icecream,0,3
+$other_icecream,0,3
+$other_icecream,0,3
+$other_icecream,0,3
+$other_icecream,0,3
+$other_icecream,0,3
+I don't eat ice cream,1,0
+I don't eat ice cream,1,0
+I don't eat ice cream,1,0
+I don't eat ice cream,1,0
+I don't eat ice cream,1,0
+I don't eat ice cream,1,0
+I don't eat ice cream,1,1
+I don't eat ice cream,1,1
+I don't eat ice cream,1,2
+I don't eat ice cream,1,2
+I don't eat ice cream,1,3
+I don't eat ice cream,1,3
+I don't eat ice cream,1,3
+I don't eat ice cream,0,0
+I don't eat ice cream,0,0
+I don't eat ice cream,0,0
+I don't eat ice cream,0,0
+I don't eat ice cream,0,0
+I don't eat ice cream,0,0
+I don't eat ice cream,0,1
+I don't eat ice cream,0,1
+I don't eat ice cream,0,2
+I don't eat ice cream,0,2
+I don't eat ice cream,0,3
+I don't eat ice cream,0,3
+I don't eat ice cream,0,3
+I'm not sure which ice cream like,1,0
+I'm not sure which ice cream like,1,0
+I'm not sure which ice cream like,1,0
+I'm not sure which ice cream like,1,0
+I'm not sure which ice cream like,1,0
+I'm not sure which ice cream like,1,1
+I'm not sure which ice cream like,1,1
+I'm not sure which ice cream like,1,1
+I'm not sure which ice cream like,1,1
+I'm not sure which ice cream like,1,2
+I'm not sure which ice cream like,1,3
+I'm not sure which ice cream like,0,0
+I'm not sure which ice cream like,0,0
+I'm not sure which ice cream like,0,0
+I'm not sure which ice cream like,0,0
+I'm not sure which ice cream like,0,0
+I'm not sure which ice cream like,0,1
+I'm not sure which ice cream like,0,1
+I'm not sure which ice cream like,0,1
+I'm not sure which ice cream like,0,1
+I'm not sure which ice cream like,0,2
+I'm not sure which ice cream like,0,3
